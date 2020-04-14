@@ -1,0 +1,74 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+}
+.navi a {
+  color: rgb(98, 98, 98);
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  line-height: 1.714;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.navi {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 78px;
+  padding-bottom: 104px;
+}
+.navi li {
+  margin-right: 122px;
+  display: inline-block;
+}
+.navi li:last-child {
+  margin-right: 0;
+}
+a:hover {
+  color: rgb(7, 243, 243);
+}
+section {
+  width: 420px;
+  margin-bottom: 132px;
+  padding-right: 60px;
+  display: inline-block;
+}
+section:nth-last-child(2n) {
+  padding: 0;
+}
+h2 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+.subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgb(180, 173, 158);
+  line-height: 1.2;
+}
+.container {
+  width: 904px;
+  margin: 0 auto;
+}
+.wrapper {
+  background: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 34px 20px 34px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+  border: 1px solid #000;
+}
